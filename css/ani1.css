@@ -1,0 +1,125 @@
+#menu {
+    text-align: center;
+}
+
+#menu div {
+    position: relative;
+    display: inline-block;
+}
+
+#menu span {
+    display: block;
+    cursor: pointer;
+}
+
+.arrow_box {
+    display: none;
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    padding: 8px;
+    top: 100px;
+    left: -100px;
+    padding-top: 12px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;  
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-size: 15px;
+    font-family: 'Noto Sans KR black';
+  }
+  
+  .arrow_box:after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    left: 124px;
+    top: 15px;
+    margin-left: -10px;
+    border: solid transparent;
+    border-color: rgba(51, 51, 51, 0);
+    border-left-color: rgb(255, 255, 255);
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+  }
+  
+  span:hover + p.arrow_box {
+    display: block;
+  }
+
+  #menu.arrow_box2 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    padding: 8px;
+    left: 0;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;  
+    border-radius: 8px;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  #menu.arrow_box2:after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    border: solid transparent;
+    border-color: rgba(51, 51, 51, 0);
+    border-bottom-color: #333;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+  }
+  
+  span:hover + p.arrow_box2 {
+    display: block;
+  }
+
+
+
+  /* 
+
+  .arrow_box {
+    display: none;
+    position: absolute;
+    width: 100px;
+    padding: 8px;
+    left: 0;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;  
+    border-radius: 8px;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .arrow_box:after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    border: solid transparent;
+    border-color: rgba(51, 51, 51, 0);
+    border-bottom-color: #333;
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+  }
+  
+  span:hover + p.arrow_box {
+    display: block;
+  }
+
+  */

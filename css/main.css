@@ -1,0 +1,420 @@
+.overview {
+    width: 100%;
+    height: 540px;
+    font-family: 'Noto Sans KR medium';
+    color: #FF5C38;
+}
+
+.overview p {
+    font-size: 37px;
+    float: center;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 45px;
+    margin-top: 700px;
+    font-family: 'Noto Sans KR black';
+}
+
+.overview span {
+    font-size: 50px;
+    font-family: 'Noto Sans KR black';
+    color: #FF5C38;
+}
+
+.box1 {
+    width: 980px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+    float: center;
+    text-align: center;
+}
+
+.background {
+    width: 100%;
+    height: 500px;
+    background-color: #FFECE8;
+}
+
+h2 {
+    color: #FF5C38;
+    font-size: 23px;
+    margin-top: 200px;
+    font-family: 'Noto Sans KR black';
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+
+.sub table {
+    float: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sub td {
+    padding: 30px;
+}
+
+#b {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-family: 'Noto Sans KR black';
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#userneed {
+    width: 100%;
+    height: 850px;
+    background-color: #FFECE8;
+    position: relative;
+    margin-top: 150px;
+}
+
+#ser1 {
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+
+#ser1 img {
+    position: absolute;
+    left: -320px;
+    top: -100px;
+}
+
+#ser4 {
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+
+#ser4 img {
+    position: absolute;
+    left: 150px;
+}
+
+.ser2 {
+    color: #FF5C38;
+    font-size: 60px;
+    font-family: 'Noto Sans KR black';
+    text-align: left;
+    left: 10%;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.ser3 {
+    color: #FF5C38;
+    font-size: 25px;
+    font-family: 'Noto Sans KR medium';
+    text-align: left;
+    left: 10%;
+    margin-top: 250px;
+    position: absolute;
+}
+
+.ser5 {
+    color: #FF5C38;
+    font-size: 60px;
+    font-family: 'Noto Sans KR black';
+    text-align: left;
+    left: 740px;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.ser6 {
+    color: #FF5C38;
+    font-size: 25px;
+    font-family: 'Noto Sans KR medium';
+    text-align: left;
+    left: 745px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+.color {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #FF5C38, #FF8B2A, #F6F6F6);
+}
+
+#design nav {
+    width: 100%;
+    height: 100px;
+}
+
+#design nav p {
+    color: black;
+    margin-top: 10px;
+    font-family: 'Noto Sans KR black';
+    font-size: 25px;
+}
+
+#p1 {
+    left: 5%;
+}
+
+#p2 {
+    left: 44%;
+}
+
+#p3 {
+    left: 85%;
+}
+
+.box6 {
+    width: 100%;
+    height: 1000px;
+    background-color: #ffffff;
+    margin-bottom: 200px;
+}
+
+.box6 img {
+    width: 100%;
+    margin-left: 30px;
+    margin-bottom: 200px;
+}
+
+#na1 {
+    width: 100%;
+    height: 170px;
+    margin-top: 170px;
+    margin-left: 30px;
+}
+
+.box8 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.int table {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.int td {
+    padding: 40px;
+}
+
+.z {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#yy {
+    font-family: 'Noto Sans KR black';
+    color: #FF5C38;
+    font-size: 18px;
+}
+
+#yyy {
+    font-family: 'Noto Sans KR black';
+    color: black;
+    font-size: 30px;
+}
+
+.int {
+    margin-bottom: 80px;
+}
+
+#des1 {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#design img {
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+#des2 {
+    font-family: 'Noto Sans KR medium';
+    font-size: 20px;
+    color: black;
+    text-align: right;
+    left: 48%;
+    margin-top: 50px;
+}
+
+/* 애니메이션 */
+
+.subtext {
+    background-color: #FFAE9C
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu div {
+    position: relative;
+    display: inline-block;
+}
+
+#menu span {
+    display: block;
+    cursor: pointer;
+}
+
+.arrow_box {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+    padding-top: 12px;
+    left: 150px;
+    top: 280px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Noto Sans KR black';
+}
+
+.arrow_box:after {
+    position: absolute;
+    left: 45px;
+    width: 0;
+    top: 50px;
+    height: 0;
+    margin-left: 5px;
+    border: solid transparent;
+    border-color: rgba(51, 51, 51, 0);
+    border-top-color: rgb(255, 255, 255);
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+}
+
+span:hover+p.arrow_box {
+    display: block;
+}
+
+.arrow_box1 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+    left: 35px;
+    top: 220px;
+    padding-top: 12px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Noto Sans KR black';
+}
+
+.arrow_box1:after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    border: solid transparent;
+    border-color: rgba(51, 51, 51, 0);
+    border-bottom-color: rgb(255, 255, 255);
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+}
+
+span:hover+p.arrow_box1 {
+    display: block;
+}
+
+.arrow_box3 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+    top: 140px;
+    left: -90px;
+    padding-top: 12px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;  
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Noto Sans KR black';
+  }
+  
+  .arrow_box3:after {
+    position: absolute;
+    bottom: 100%;
+    left: 123px;
+    width: 0;
+    height: 0;
+    top: 13px;
+    margin-left: -10px;
+    border: solid transparent;
+    border-color: rgba(51, 51, 51, 0);
+    border-left-color: rgb(255, 255, 255);
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+  }
+  
+  span:hover + p.arrow_box3 {
+    display: block;
+  }
+
+  .arrow_box10 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding: 8px;
+    left: 300px;
+    top: 70px;
+    padding-top: 12px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Noto Sans KR black';
+    position: absolute;
+}
+
+.arrow_box10:after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    top: 50px;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    border: solid transparent;
+    border-color: rgba(51, 51, 51, 0);
+    border-top-color: rgb(255, 255, 255);
+    border-width: 10px;
+    pointer-events: none;
+    content: " ";
+}
+
+span:hover+p.arrow_box10 {
+    display: block;
+}
